@@ -1,0 +1,38 @@
+{
+  "name": "ZeroFollowers",
+  "version": "2.0.1",
+  "description": "Raspbery Pi Zero Twitter Account Bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "node server.js",
+    "build": "node server.js",
+    "lint": "eslint server.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmkjr/zerofollowers.git"
+  },
+  "author": "Bradford Knowlton",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bradmkjr/zerofollowers/issues"
+  },
+  "homepage": "https://github.com/bradmkjr/zerofollowers#readme",
+  "dependencies": {
+    "pg": "*",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "pgcachedb": "^1.1.5",
+    "sqlcachedb": "^1.1.4",
+    "eslint": "*",
+    "eslint-plugin-jsdoc": "^3.1.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "express": "^4.16.2",
+    "querystring": "^0.2.0",
+    "sqlite3": "^3.1.13"
+  }
+}
