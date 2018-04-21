@@ -676,8 +676,6 @@ async function run(){
 	
 	let account, cursor;
 		
-	// account = "amazon";
-	
 	account = process.env.twitter_account;
 	
 	cursor = -1;
